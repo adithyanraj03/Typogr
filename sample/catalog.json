@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "note": "Curated approximations of OpenType metrics for web-safe fonts. Values are hand-tuned for pairing math (x-height as a fraction of em, thick-to-thin stroke contrast 0-2, average advance width in em per character) - they are NOT parsed from the font binaries at runtime.",
+    "categories": ["serif", "sans", "mono", "slab"]
+  },
+  "fonts": [
+    {
+      "name": "Georgia",
+      "category": "serif",
+      "x_height": 0.48,
+      "stroke_contrast": 1.2,
+      "width_ratio": 0.55,
+      "stack": "Georgia, 'Times New Roman', Times, serif"
+    },
+    {
+      "name": "Times New Roman",
+      "category": "serif",
+      "x_height": 0.45,
+      "stroke_contrast": 1.3,
+      "width_ratio": 0.5,
+      "stack": "'Times New Roman', Times, Georgia, serif"
+    },
+    {
+      "name": "Garamond",
+      "category": "serif",
+      "x_height": 0.38,
+      "stroke_contrast": 1.0,
+      "width_ratio": 0.48,
+      "stack": "Garamond, 'EB Garamond', 'Times New Roman', serif"
+    },
+    {
+      "name": "Palatino",
+      "category": "serif",
+      "x_height": 0.44,
+      "stroke_contrast": 0.9,
+      "width_ratio": 0.52,
+      "stack": "Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif"
+    },
+    {
+      "name": "Baskerville",
+      "category": "serif",
+      "x_height": 0.46,
+      "stroke_contrast": 1.5,
+      "width_ratio": 0.5,
+      "stack": "Baskerville, 'Baskerville Old Face', 'Times New Roman', serif"
+    },
+    {
+      "name": "Verdana",
+      "category": "sans",
+      "x_height": 0.67,
+      "stroke_contrast": 0.5,
+      "width_ratio": 0.62,
+      "stack": "Verdana, Geneva, Tahoma, sans-serif"
+    },
+    {
+      "name": "Arial",
+      "category": "sans",
+      "x_height": 0.52,
+      "stroke_contrast": 0.4,
+      "width_ratio": 0.55,
+      "stack": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "name": "Tahoma",
+      "category": "sans",
+      "x_height": 0.52,
+      "stroke_contrast": 0.5,
+      "width_ratio": 0.55,
+      "stack": "Tahoma, Verdana, Arial, sans-serif"
+    },
+    {
+      "name": "Trebuchet MS",
+      "category": "sans",
+      "x_height": 0.49,
+      "stroke_contrast": 0.5,
+      "width_ratio": 0.54,
+      "stack": "'Trebuchet MS', Tahoma, Verdana, sans-serif"
+    },
+    {
+      "name": "Segoe UI",
+      "category": "sans",
+      "x_height": 0.53,
+      "stroke_contrast": 0.4,
+      "width_ratio": 0.52,
+      "stack": "'Segoe UI', system-ui, Arial, sans-serif"
+    },
+    {
+      "name": "Consolas",
+      "category": "mono",
+      "x_height": 0.49,
+      "stroke_contrast": 0.3,
+      "width_ratio": 0.55,
+      "stack": "Consolas, 'Lucida Console', 'Courier New', monospace"
+    },
+    {
+      "name": "Courier New",
+      "category": "mono",
+      "x_height": 0.45,
+      "stroke_contrast": 0.8,
+      "width_ratio": 0.6,
+      "stack": "'Courier New', Courier, monospace"
+    },
+    {
+      "name": "Lucida Console",
+      "category": "mono",
+      "x_height": 0.44,
+      "stroke_contrast": 0.3,
+      "width_ratio": 0.6,
+      "stack": "'Lucida Console', Monaco, monospace"
+    },
+    {
+      "name": "Rockwell",
+      "category": "slab",
+      "x_height": 0.52,
+      "stroke_contrast": 1.0,
+      "width_ratio": 0.58,
+      "stack": "Rockwell, 'Rockwell Nova', Georgia, serif"
+    }
+  ]
+}

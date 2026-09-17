@@ -1,0 +1,8 @@
+{
+  "base": 16,
+  "ratio": 1.25,
+  "steps_below": 2,
+  "steps_above": 6,
+  "root": 16,
+  "naming": "t-shirt"
+}

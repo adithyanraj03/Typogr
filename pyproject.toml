@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "typogr"
+version = "1.0.0"
+description = "Offline typography scale & pairing calculator - stdlib-only Python CLI."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "adithyanraj03" }]
+keywords = ["typography", "type-scale", "font-pairing", "cli", "offline", "deterministic"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing :: Fonts",
+    "Topic :: Utilities",
+]
+# stdlib only: no runtime dependencies.
+
+[project.scripts]
+typogr = "typogr.cli:main"
+
+[tool.setuptools]
+packages = ["typogr"]
+
+[tool.setuptools.package-data]
+typogr = ["../sample/*.json"]

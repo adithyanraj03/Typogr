@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+out/
+specimen.html
+Deleted_files/
+
+# Local discard folder (retired assets; never committed)
+Deleted_files/
